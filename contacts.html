@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Хостинго – Наши контакты</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" type="image/ico" href="./favicon.svg" />
+  </head>
+  <body>
+    <header>
+      <div class="header-bottom d-flex align-items-center">
+        <div
+          class="container d-flex justify-content-between align-items-center"
+        >
+          <a href="./index.html">
+            <img class="logo" src="./assets/images/logo.svg" alt="ХОСТИНГО" />
+          </a>
+          <div class="menu-burger__header d-block d-lg-none">
+            <span></span>
+          </div>
+          <nav class="header-nav navbar">
+            <ul class="header-list flex-wrap">
+              <li class="header-item">
+                <a href="./index.html" class="header-link">Главная</a>
+              </li>
+              <li class="header-item">
+                <a href="./v-hosting.html" class="header-link"
+                  >Виртуальный хостинг</a
+                >
+              </li>
+              <li class="header-item">
+                <a href="#" class="header-link blue">Контакты</a>
+              </li>
+              <li class="header-item">
+                <a href="./about.html" class="header-link">О нас</a>
+              </li>
+              <li class="header-item">
+                <a href="./blog.html" class="header-link">Почему мы?</a>
+              </li>
+            </ul>
+          </nav>
+          <form action="" class="login-form">
+            <div>
+              <input
+                type="login"
+                name="login"
+                id="log"
+                placeholder="Логин"
+                required
+              />
+              <input
+                type="password"
+                name="password"
+                id="pass"
+                placeholder="Пароль"
+                required
+              />
+            </div>
+            <input type="submit" value="Войти" />
+          </form>
+        </div>
+      </div>
+    </header>
+    <section class="container">
+      <div class="row">
+        <div class="call-us">
+          <h1>
+            Наши менеджеры
+            <span class="blue-bold">готовы&nbsp;помочь&nbsp;Вам</span>
+          </h1>
+          <a href="tel:+75001002255" class="call-us-button">Позвонить нам</a>
+        </div>
+        <div
+          class="contacts-form d-flex justify-content-between align-items-center"
+        >
+          <div class="contacts-form-start">
+            <div class="contacts-form-1">
+              <p>ТЕЛЕФОН</p>
+              <a href="tel:+75001002255">+7 500 100-22-55</a>
+              <a href="tel:+75002001245">или +7 500 200-12-45</a>
+            </div>
+            <div class="contacts-form-2">
+              <p>ЭЛЕКТРОННАЯ ПОЧТА</p>
+              <a href="mailto:support@hostiko.com">support@hostingo.com</a>
+            </div>
+            <div class="contacts-form-3">
+              <p>МЕССЕНДЖЕРЫ</p>
+              <a href="https://t.me/">Telegram</a>
+              <a href="https://vk.com/">ВКонтакте</a>
+              <a href="https://WhatsApp.com/">WhatsApp</a>
+            </div>
+            <div class="adres-1">
+              <p>АДРЕС</p>
+              <a href="https://goo.gl/maps/yBQhtah5aT38z5529" target="_blank"
+                >Киев, Украина<br />
+                улица Михаила Котельникова, 1/16</a
+              >
+              <a href="https://goo.gl/maps/yBQhtah5aT38z5529" target="_blank"
+                >Показать на карте</a
+              >
+            </div>
+          </div>
+          <div class="contacts-form-end">
+            <form class="form">
+              <h1>
+                Хотите задать вопрос?<br /><span class="blue-bold"
+                  >Заполните анкету!</span
+                >
+              </h1>
+              <div class="form-text-1">
+                <div class="name">
+                  <input
+                    type="name"
+                    name="ask"
+                    required
+                    placeholder="Как к Вам обращаться?"
+                    pattern="^[А-Яа-яЁё\s]+$"
+                    minlength="5"
+                    maxlength="20"
+                  />
+                  <span class="form__error">Проверьте этот пункт</span>
+                </div>
+                <div class="mail">
+                  <input
+                    onkeyup="this.setAttribute('value', this.value);"
+                    placeholder="Контактный адрес связи"
+                    required
+                    minlength="5"
+                    maxlength="20"
+                  />
+                  <span class="form__error">Проверьте этот пункт</span>
+                </div>
+              </div>
+              <div class="form-text-2">
+                <div class="message">
+                  <textarea
+                    name="ask"
+                    required
+                    id="message-area"
+                    placeholder="Введите Ваше обращение*"
+                    minlength="20"
+                    maxlength="1000"
+                  ></textarea>
+                  <span>*максимум 1000 символов</span>
+                </div>
+              </div>
+              <div class="form-buttons">
+                <input
+                  style="width: 380px"
+                  class="form-submit-button"
+                  type="submit"
+                  value="Отправить"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-midle d-flex">
+        <div class="container">
+          <div class="footer-midle-content">
+            <div class="footer-midle-start">
+              <a href="./index.html">
+                <img
+                  class="logo"
+                  src="./assets/images/logo.svg"
+                  alt="ХОСТИНГО"
+                />
+              </a>
+            </div>
+            <div class="footer-midle-second">
+              <nav class="footer-nav">
+                <div class="footer-nav-main">
+                  <a href="./index.html"><h3>Главная</h3></a>
+                  <ul class="nav-main-list">
+                    <li>
+                      <a href="./index.html#">Подробнее</a>
+                    </li>
+                    <li>
+                      <a href="./index.html#news">Новости</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-nav-services">
+                  <a href="./v-hosting.html"><h3>Виртуальный хостинг</h3></a>
+                  <ul class="nav-services-list">
+                    <li>
+                      <a href="./v-hosting.html#vibor">Выбрать тарий</a>
+                    </li>
+                    <li>
+                      <a href="./v-hosting.html#table">Таблица преимуществ</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-nav-contacts">
+                  <a href="./contacts.html"><h3>Контакты</h3></a>
+                  <ul class="nav-contacts-list">
+                    <li>
+                      <a href="./contacts.html#contact-form"
+                        >Контактная форма</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./contacts.html#contact-form"
+                        >Номера телефонов</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./contacts.html#contact-form">Мессенджеры</a>
+                    </li>
+                    <li>
+                      <a href="./contacts.html#contact-form">Наши адреса</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-nav-about">
+                  <a href="./about.html"><h3>О нас</h3></a>
+                  <ul class="nav-about-list">
+                    <li>
+                      <a href="./about.html">Описание</a>
+                    </li>
+                    <li>
+                      <a href="./about.html">Галлерея</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

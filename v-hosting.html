@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Хостинго – Виртуальный хостинг</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" type="image/ico" href="./favicon.svg" />
+  </head>
+  <body>
+    <header>
+      <div class="header-bottom d-flex align-items-center">
+        <div
+          class="container d-flex justify-content-between align-items-center"
+        >
+          <a href="./index.html">
+            <img class="logo" src="./assets/images/logo.svg" alt="ХОСТИНГО" />
+          </a>
+          <div class="menu-burger__header d-block d-lg-none">
+            <span></span>
+          </div>
+          <nav class="header-nav navbar">
+            <ul class="header-list flex-wrap">
+              <li class="header-item">
+                <a href="./index.html" class="header-link">Главная</a>
+              </li>
+              <li class="header-item">
+                <a href="./v-hosting.html" class="header-link blue"
+                  >Виртуальный хостинг</a
+                >
+              </li>
+              <li class="header-item">
+                <a href="./contacts.html" class="header-link">Контакты</a>
+              </li>
+              <li class="header-item">
+                <a href="./about.html" class="header-link">О нас</a>
+              </li>
+              <li class="header-item">
+                <a href="./blog.html" class="header-link">Почему мы?</a>
+              </li>
+            </ul>
+          </nav>
+          <form action="" class="login-form">
+            <div>
+              <input
+                type="login"
+                name="login"
+                id="log"
+                placeholder="Логин"
+                required
+              />
+              <input
+                type="password"
+                name="password"
+                id="pass"
+                placeholder="Пароль"
+                required
+              />
+            </div>
+            <input type="submit" value="Войти" />
+          </form>
+        </div>
+      </div>
+    </header>
+    <section class="container">
+      <div class="row">
+        <div class="v-hosting" id="vibor">
+          <h1>Виртуальный <span class="blue-bold">хостинг</span></h1>
+          <h2>
+            Четыре тарифных плана для самых разных потребностей помогут вам
+            перестать<br />
+            переплачивать за функционал, который будет бездействовать
+          </h2>
+          <a href="#price">
+            <button class="v-hosting-button">Выбрать тариф</button>
+          </a>
+        </div>
+        <div id="price" class="pricing-list d-none d-lg-flex">
+          <table id="table">
+            <tr class="tr-head">
+              <td style="border: none; padding: 0"></td>
+              <td>
+                <div class="price-standart">
+                  <h3>Тариф&nbsp;«STANDART»</h3>
+                  <h4>Для самых простых лендингов</h4>
+                  <h5>50 ₽<span>/месяц</span></h5>
+                </div>
+              </td>
+              <td class="price-popular">
+                <div class="td-head">Популярный</div>
+                <div class="price-standart">
+                  <h3>Тариф «MEDIUM»</h3>
+                  <h4>Для многостраничных сайтов</h4>
+                  <h5>129 ₽<span>/месяц</span></h5>
+                </div>
+              </td>
+              <td>
+                <div class="price-standart">
+                  <h3>Тариф «BUSINESS»</h3>
+                  <h4>Для интернет-магазина</h4>
+                  <h5>199 ₽<span>/месяц</span></h5>
+                </div>
+              </td>
+              <td>
+                <div class="price-standart">
+                  <h3>Тариф «PREMIUM»</h3>
+                  <h4>Для абсолютно любого сайта</h4>
+                  <h5>259 ₽<span>/месяц</span></h5>
+                </div>
+              </td>
+            </tr>
+            <tr class="tr-backgrounded">
+              <td><p>Основное</p></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="tr-services">
+              <td><p>Объём накопителя NVME</p></td>
+              <td><span>2 ГБ</span></td>
+              <td><span>7 ГБ</span></td>
+              <td><span>15 ГБ</span></td>
+              <td><span>25 ГБ</span></td>
+            </tr>
+            <tr class="tr-services">
+              <td><p>Любое количество сайтов</p></td>
+              <td><img src="./assets/images/table/x.svg" /></td>
+              <td>
+                <img src="./assets/images/table/check.svg" />
+              </td>
+              <td><img src="./assets/images/table/check.svg" /></td>
+              <td><img src="./assets/images/table/check.svg" /></td>
+            </tr>
+            <tr class="tr-services">
+              <td><p>Домен в подарок</p></td>
+              <td><img src="./assets/images/table/x.svg" /></td>
+              <td>
+                <img src="./assets/images/table/check.svg" />
+              </td>
+              <td><img src="./assets/images/table/check.svg" /></td>
+              <td><img src="./assets/images/table/check.svg" /></td>
+            </tr>
+            <tr class="tr-services">
+              <td><p>Защита от DDoS-атак</p></td>
+              <td><img src="./assets/images/table/check.svg" /></td>
+              <td>
+                <img src="./assets/images/table/check.svg" />
+              </td>
+              <td><img src="./assets/images/table/check.svg" /></td>
+              <td><img src="./assets/images/table/check.svg" /></td>
+            </tr>
+            <tr class="tr-services">
+              <td><p>Бесконечный трафик</p></td>
+              <td><img src="./assets/images/table/x.svg" /></td>
+              <td>
+                <img src="./assets/images/table/x.svg" />
+              </td>
+              <td><img src="./assets/images/table/check.svg" /></td>
+              <td><img src="./assets/images/table/check.svg" /></td>
+            </tr>
+            <tr class="tr-services">
+              <td><p>Доступ по протоколу</p></td>
+              <td><span>FTP</span></td>
+              <td><span>FTP/SSH</span></td>
+              <td><span>FTP/SSH</span></td>
+              <td><span>FTP/SSH</span></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-midle d-flex">
+        <div class="container">
+          <div class="footer-midle-content">
+            <div class="footer-midle-start">
+              <a href="./index.html">
+                <img
+                  class="logo"
+                  src="./assets/images/logo.svg"
+                  alt="ХОСТИНГО"
+                />
+              </a>
+            </div>
+            <div class="footer-midle-second">
+              <nav class="footer-nav">
+                <div class="footer-nav-main">
+                  <a href="./index.html"><h3>Главная</h3></a>
+                  <ul class="nav-main-list">
+                    <li>
+                      <a href="./index.html#">Подробнее</a>
+                    </li>
+                    <li>
+                      <a href="./index.html#news">Новости</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-nav-services">
+                  <a href="./v-hosting.html"><h3>Виртуальный хостинг</h3></a>
+                  <ul class="nav-services-list">
+                    <li>
+                      <a href="./v-hosting.html#vibor">Выбрать тарий</a>
+                    </li>
+                    <li>
+                      <a href="./v-hosting.html#table">Таблица преимуществ</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-nav-contacts">
+                  <a href="./contacts.html"><h3>Контакты</h3></a>
+                  <ul class="nav-contacts-list">
+                    <li>
+                      <a href="./contacts.html#contact-form"
+                        >Контактная форма</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./contacts.html#contact-form"
+                        >Номера телефонов</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./contacts.html#contact-form">Мессенджеры</a>
+                    </li>
+                    <li>
+                      <a href="./contacts.html#contact-form">Наши адреса</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-nav-about">
+                  <a href="./about.html"><h3>О нас</h3></a>
+                  <ul class="nav-about-list">
+                    <li>
+                      <a href="./about.html">Описание</a>
+                    </li>
+                    <li>
+                      <a href="./about.html">Галлерея</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
